@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'fontWeb';
+    src: url("../fonts/Sans.eot")format('embedded-opentype');
+    src: url("../fonts/Sans.eot?#iefix")format('embedded-opentype');
+    src: url("../fonts/Sans.ttf")format('truetype');
+    src: url("../fonts/Sans.woff")format('woff');
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+html {
+    line-height: 1.15;
+    direction: rtl!important;
+}
+body {
+    margin: 0!important;
+    padding: 0!important;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'fontWeb',sans-serif!important;
+}
+.header{
+    height: 80px;
+    background-color: #203541;
+}
+.socialNetwork ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.socialNetwork ul li {
+    display: inline-block;
+}
+.socialNetwork ul li a {
+    color: #ffffff;
+    padding: 0 4px;
+    opacity: 0.6;
+    transition: all 400ms ease-in-out 0ms;
+    -webkit-transition: all 400ms ease-in-out 0ms;
+    -moz-transition: all 400ms ease-in-out 0ms;
+    -o-transition: all 400ms ease-in-out 0ms;
+}
+.socialNetwork ul li:hover a {
+    color: #ffffff!important;
+    text-decoration: none!important;
+    opacity: 1!important;
+}
+.phoneSite {
+    direction: ltr;
+    text-align: left;
+}
+.phoneSite div {
+    color: #ffffff;
+    display: inline-block;
+    opacity: 0.6;
+    transition: all 400ms ease-in-out 0ms;
+    -webkit-transition: all 400ms ease-in-out 0ms;
+    -moz-transition: all 400ms ease-in-out 0ms;
+    -o-transition: all 400ms ease-in-out 0ms;
+    cursor: default;
+}
+.phoneSite div:hover {
+    opacity: 1!important;
+}
+.phoneSite div i {
+    margin-right: 4px;
+}
+.header{
+    position: relative;
+    z-index: 99999;
+}
+.iconBox{
+    text-align: center;
+    font-size: 70px;
+    color: #0074e4;
+}
+.iconBox p{
+    font-size: 14px;
+    color: #000;
+}
+.iconBox h5{
+    color: #000000;
+}
+.title_bdr{
+    font-size: 70px;
+    color: #0074e4;
+}
+.navContent:hover{
+    color: #df0054;
+}
